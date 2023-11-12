@@ -1,4 +1,3 @@
-@media (max-width: 1024px) {
     nav.navbar {
         width: 100%;
         margin-left: unset;
@@ -66,4 +65,3 @@
     .work-width {
         width: unset;
     }
-}
