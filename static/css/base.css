@@ -78,7 +78,7 @@ a.active {
 
 a:hover,
 a.active {
-    border-bottom: 5px solid var(--main);
+    border-bottom: 2px solid var(--main);
 }
 
 .a-clean:hover,
