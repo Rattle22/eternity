@@ -6,8 +6,8 @@
     {{ if not .Site.Params.DontShowLogo }}
     <div class="navbar-start">
         <div class="logo">
-            <a href={{ relref . $homeLink }}>
-                <img class="logo" src={{ .Site.Params.logo | absURL }}>
+            <a href={{ relref . $homeLink }} aria-label={{ .Site.Params.logo.altText }}>
+                <img class="logo" src={{ .Site.Params.logo.file | absURL }} alt={{ .Site.Params.logo.altText }} width={{ .Site.Params.logo.width }} height={{ .Site.Params.logo.height }}>
             </a>
         </div>
     </div>
